@@ -20,7 +20,7 @@ Se debe indicar con la etiqueta 'with' algunos parametros.
 Ejemplo:
 
 <p align="center">
-  <img width="671" height="61" alt="action" src="public/img/action.png">
+  <img width="671" height="61" alt="action" src="public/img/action.PNG">
 </p>
 
 2. Pega en tu workflow y añade la etiqueta with: añadiendo los parametros: "work_dir" y "artifact_name".
@@ -28,7 +28,7 @@ Ejemplo:
 Ejemplo:
 
 <p align="center">
-  <img width="667" height="149" alt="action_with" src="public/img/action_with.png">
+  <img width="667" height="149" alt="action_with" src="public/img/action_with.PNG">
 </p>
 
 Se debe indicar el valores que corresponden. 
