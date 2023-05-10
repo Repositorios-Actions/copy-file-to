@@ -10,7 +10,7 @@ Este Actions facilita el copiado de archivos de un directorio a otro.
 
 Se debe indicar con la etiqueta 'with' algunos parametros.
 
-1. Archivo a copiar.
+1. Archivo a copiar
 2. Directorio destino
 
 ## Instrucciones
@@ -41,5 +41,6 @@ Ejemplo 2:
 
 ## Ejecución por consola
 
-1. mkdir -p work_dir/artifact_name
-2. cd work_dir && ls -l
+1. cd ${{ inputs.work_dir }}
+2. cp -R ${{ inputs.file }} ${{ inputs.to }}
+3. cd ${{ inputs.to }} && ls -l
